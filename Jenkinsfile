@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename './bulletin-board-app/'
+      filename './bulletin-board-app/Dockerfile'
     }
 
   }
